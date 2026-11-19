@@ -112,3 +112,15 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Reproducible reports are tracked; local logs, captures and fixture saves are not.
+/TestResults/*.log
+/TestResults/runtime/*.png
+/TestResults/runtime/isolated-save.json*
+/TestResults/runtime/runtime-errors.txt
+/TestResults/runtime/*.wav
+/TestResults/runtime/*.ghost
+/TestResults/runtime/velocity-v*-*.replay
+/TestResults/recording-test.bin
+/TestResults/v2/
+/TestResults/v3/
