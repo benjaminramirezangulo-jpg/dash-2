@@ -1,0 +1,7 @@
+stage,attempt,won,time,hp,kills,seals,dashes,shots,parries,movingRatio,coreAttacks,mode,mastery,masteryTarget,liveBeamCuts
+1,0,True,3.77,2,9,3,9,30,0,0.998,0,Chain,9,5,0
+2,0,True,4.48,2,11,3,14,36,0,1.000,0,Hairpin,3,3,0
+3,0,True,12.24,1,12,3,18,133,12,1.000,0,Counter,6,3,0
+4,0,True,2.30,2,10,3,7,25,0,1.000,0,Timing,0,2,0
+5,0,True,2.81,2,12,3,9,24,0,0.997,0,Pursuit,2,3,0
+6,0,True,7.62,1,13,3,16,82,31,0.999,3,Core,3,3,0

@@ -1,0 +1,96 @@
+<?xml version="1.0"?><testsuite name="Velocity gameplay regression" tests="95" failures="0"><testcase name="speed reaches 20 units within 67ms" time="0.031879" />
+<testcase name="diagonal speed is normalized" time="0.0002919" />
+<testcase name="release stops within 67ms" time="0.0001991" />
+<testcase name="direction reversal is responsive" time="0.0001819" />
+<testcase name="dash speed is more than 3x running" time="0.0007324" />
+<testcase name="dash travels eight units in exactly fifteen ticks" time="0.0002171" />
+<testcase name="dash retains steering input after finish" time="0.000226" />
+<testcase name="two dash charges and automatic recharge" time="0.0003611" />
+<testcase name="dash input buffers across active dash" time="0.0003625" />
+<testcase name="exhausted dash buffer expires" time="0.0002134" />
+<testcase name="focus speed is deliberate precision" time="0.0002557" />
+<testcase name="swept dash cannot tunnel thin wall" time="0.0005638" />
+<testcase name="wall sliding preserves tangent travel" time="0.0003749" />
+<testcase name="boundary holds maximum dash speed" time="0.0002118" />
+<testcase name="high speed projectile hits target between frames" time="0.0021291" />
+<testcase name="nearest wall shields enemy from bullet" time="0.0004826" />
+<testcase name="bullets hit nearest enemy only" time="0.0004302" />
+<testcase name="dash protects from hostile damage" time="0.0004963" />
+<testcase name="last dash tick retains full bullet immunity" time="0.0003149" />
+<testcase name="damage grace prevents one frame double hit" time="0.0003918" />
+<testcase name="nightmare is one hit" time="0.0002047" />
+<testcase name="death is terminal and no late win" time="0.0003275" />
+<testcase name="zero dt does not process input" time="0.0002979" />
+<testcase name="time limit cannot be bypassed" time="0.0002233" />
+<testcase name="dash kills enemy and rewards flow" time="0.0002941" />
+<testcase name="kill is awarded exactly once" time="0.000259" />
+<testcase name="one dash cannot multiply hit boss every tick" time="0.0003676" />
+<testcase name="beam telegraphs before activation" time="0.0004238" />
+<testcase name="active beam damages and dash bypasses beam" time="0.0009449" />
+<testcase name="boss overdrive increases bullet pressure" time="0.0015234" />
+<testcase name="core cannot skip its three attack and counter phases" time="0.00069" />
+<testcase name="chain expires without aggression" time="0.0004288" />
+<testcase name="relays refill dash and reset parry cooldown" time="0.0003284" />
+<testcase name="parry reflects nearby hostile bullets only" time="0.0005345" />
+<testcase name="parry cannot be spammed" time="0.0004441" />
+<testcase name="exit requires both seals and enemies" time="0.0025655" />
+<testcase name="shooting cadence stays above ten per second" time="0.0005885" />
+<testcase name="projectile budget is enforced" time="0.000333" />
+<testcase name="expired shots are recycled" time="0.0004902" />
+<testcase name="reset produces a clean attempt" time="0.0002345" />
+<testcase name="stage indices are validated" time="0.0006324" />
+<testcase name="ribbons require crossing in the marked direction" time="0.0004524" />
+<testcase name="walking across a ribbon does not count" time="0.0005838" />
+<testcase name="a dash crossing counts a ribbon once" time="0.0004956" />
+<testcase name="last guard kill and ribbon crossing work in the same tick" time="0.0004892" />
+<testcase name="pursuit checkpoints do not require killing hunters" time="0.001416" />
+<testcase name="beam trial breach advances with live enemies" time="0.0006538" />
+<testcase name="beam warning arms on approach and precedes damage" time="0.0009093" />
+<testcase name="spindle shields reject ordinary fire and dash damage" time="0.0003231" />
+<testcase name="returned fire breaks a spindle shield exactly once" time="0.000427" />
+<testcase name="escape completion and mastery are separate" time="0.0008337" />
+<testcase name="all four boundaries release immediately when moving away" time="0.000711" />
+<testcase name="dash wall impact allows immediate reverse" time="0.0002765" />
+<testcase name="near-edge navigation escapes conservative planning margins" time="0.0009554" />
+<testcase name="dash steering bends but cannot instantly reverse" time="0.0004955" />
+<testcase name="dash kill refunds charge but a boss hit does not" time="0.0004051" />
+<testcase name="front guard blocks while a side shot hits" time="0.0005386" />
+<testcase name="guard aim turns through 180 degrees without locking" time="0.0002364" />
+<testcase name="windup opens frontal guard" time="0.0003687" />
+<testcase name="parry success grants drive and a charge" time="0.0004191" />
+<testcase name="parry never reflects through cover" time="0.0004699" />
+<testcase name="empty parry costs cooldown and expires" time="0.0002818" />
+<testcase name="a reflected shot breaks the front guard" time="0.0004172" />
+<testcase name="moving graze rewards once without damage" time="0.0002787" />
+<testcase name="overdrive increases both movement and shot damage" time="0.0003511" />
+<testcase name="idling burns drive faster than moving" time="0.0003554" />
+<testcase name="relays enforce encounter and route order" time="0.0008138" />
+<testcase name="dormant sector does not fire or contact damage" time="0.0003321" />
+<testcase name="distant enemy cannot fire unseen" time="0.0003075" />
+<testcase name="hunter routes around a long wall instead of sticking" time="0.001675" />
+<testcase name="damage remembers its source for death explanation" time="0.0003197" />
+<testcase name="checkpoint practice restores only completed sectors" time="0.001667" />
+<testcase name="input recording round trip uses the exact production inputs" time="0.0041147" />
+<testcase name="truncated input recording is rejected" time="0.0005268" />
+<testcase name="ghost interpolation and persistence agree" time="0.0055046" />
+<testcase name="stage 1 spawn exit seals and enemies are unobstructed" time="0.0007739" />
+<testcase name="stage 1 all objectives are reachable without wall clipping" time="0.0099891" />
+<testcase name="stage 1 deterministic 60 second stress replay" time="0.0479301" />
+<testcase name="stage 2 spawn exit seals and enemies are unobstructed" time="2.89E-05" />
+<testcase name="stage 2 all objectives are reachable without wall clipping" time="0.008626" />
+<testcase name="stage 2 deterministic 60 second stress replay" time="0.0705" />
+<testcase name="stage 3 spawn exit seals and enemies are unobstructed" time="1.91E-05" />
+<testcase name="stage 3 all objectives are reachable without wall clipping" time="0.0081728" />
+<testcase name="stage 3 deterministic 60 second stress replay" time="0.0534977" />
+<testcase name="stage 4 spawn exit seals and enemies are unobstructed" time="1.79E-05" />
+<testcase name="stage 4 all objectives are reachable without wall clipping" time="0.0080081" />
+<testcase name="stage 4 deterministic 60 second stress replay" time="0.0522975" />
+<testcase name="stage 5 spawn exit seals and enemies are unobstructed" time="1.78E-05" />
+<testcase name="stage 5 all objectives are reachable without wall clipping" time="0.0101463" />
+<testcase name="stage 5 deterministic 60 second stress replay" time="0.0526971" />
+<testcase name="stage 6 spawn exit seals and enemies are unobstructed" time="1.92E-05" />
+<testcase name="stage 6 all objectives are reachable without wall clipping" time="0.0086438" />
+<testcase name="stage 6 deterministic 60 second stress replay" time="0.0544557" />
+<testcase name="six authored signatures each contain three encounters" time="0.0020335" />
+<testcase name="six minute simulation performance budget" time="0.1587295" />
+</testsuite>
