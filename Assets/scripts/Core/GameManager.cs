@@ -3,6 +3,17 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    private void Awake()
+    {
+        // Preserve the original scene as a reference; both Editor and shipped player
+        // start the same campaign code without depending on generated scene assets.
+        if (FindAnyObjectByType<VelocityGame>() == null)
+        {
+            new GameObject("Velocity Campaign").AddComponent<VelocityGame>();
+            foreach (GameObject root in SceneManager.GetActiveScene().GetRootGameObjects())
+                if (root.GetComponent<VelocityGame>() == null) root.SetActive(false);
+        }
+    }
     [SerializeField] private Health playerHealth;
     [SerializeField] private GameObject gameOverPanel;
 
